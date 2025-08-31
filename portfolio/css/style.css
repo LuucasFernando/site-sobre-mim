@@ -1,0 +1,70 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    color: #000000; /* Cor do texto preto */
+    text-align: center; /* Centraliza o texto */
+    background-color: rgb(105, 42, 42); /* Cor de fundo marrom escuro */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #000000; /* Fundo preto */
+    color: white; /* Texto branco */
+    padding: 10px 0; /* Espaçamento vertical */
+}
+
+/* Remove os marcadores da lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove os bullets */
+    padding: 0; /* Remove o padding */
+}
+
+/* Exibe os itens da lista de navegação em linha */
+nav ul li {
+    display: inline; /* Itens em linha */
+    margin-right: 20px; /* Espaço entre os itens */
+}
+
+/* Estiliza os links da navegação */
+nav ul li a {
+    color: rgb(255, 1, 1); /* Cor vermelha */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estiliza a área principal do conteúdo */
+main {
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estiliza o rodapé */
+footer {
+    padding: 10px 0; /* Espaçamento vertical */
+    background-color: #000000; /* Fundo preto */
+    color: rgb(255, 0, 0); /* Texto vermelho */
+    position: relative; /* Posição relativa para controle */
+    bottom: 0; /* Posiciona na parte inferior */
+    width: 100%; /* Largura total */
+}
+
+/* Estiliza o formulário para usar flexbox em coluna */
+form {
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+}
+
+/* Espaçamento acima dos labels do formulário */
+form label {
+    margin-top: 10px; /* Espaço superior */
+}
+
+/* Estiliza os campos de entrada e textarea */
+form input, form textarea {
+    margin-top: 5px; /* Espaço superior */
+    padding: 10px; /* Espaçamento interno */
+    margin-left: 40%; /* Margem esquerda para centralizar */
+    margin-right: 40%; /* Margem direita para centralizar */
+    width: 100%; /* Largura total do elemento pai */
+    max-width: 250px; /* Largura máxima */
+}
